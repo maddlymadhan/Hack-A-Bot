@@ -1,20 +1,23 @@
 {
-  "name": "Hack-A-Bot",
-  "projectId": "80342f27-6984-4bc4-8f03-1900682b3961",
-  "description": "",
+  "name": "AutoBots",
+  "projectId": "5f1d43c9-6328-4e17-a55f-fcc34ae5f669",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.MLServices.Activities": "[2.0.3]",
+    "UiPath.Python.Activities": "[1.8.1]",
     "UiPath.System.Activities": "[24.10.3]",
     "UiPath.Testing.Activities": "[24.10.0]",
-    "UiPath.UIAutomation.Activities": "[24.10.0]"
+    "UiPath.UIAutomation.Activities": "[24.10.0]",
+    "UiPath.WebAPI.Activities": "[1.21.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.1.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -50,7 +53,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "240df850-759d-4f5f-9e1e-37e0f6a3636a",
+      "uniqueId": "a71022df-ae9b-46d9-8c8f-b6a759d733d4",
       "input": [],
       "output": []
     }
